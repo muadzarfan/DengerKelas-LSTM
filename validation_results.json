@@ -1,0 +1,192 @@
+{
+  "device": "cpu",
+  "torch": "2.14.1+cpu",
+  "threads": 4,
+  "seed": 42,
+  "batch_size": 24,
+  "planned_epochs": 12,
+  "train_examples": 2538,
+  "validation_examples": 345,
+  "train_seconds": 31981.379999999957,
+  "validation_seconds": 4099.259999999999,
+  "parameters": 236326,
+  "initial": {
+    "word_errors": 6498,
+    "reference_words": 6498,
+    "character_errors": 40010,
+    "reference_characters": 39067,
+    "wer": 1.0,
+    "cer": 1.0241380193001766
+  },
+  "best": {
+    "word_errors": 6365,
+    "reference_words": 6498,
+    "character_errors": 18628,
+    "reference_characters": 39067,
+    "wer": 0.97953216374269,
+    "cer": 0.4768218701205621,
+    "epoch": 12,
+    "train_ctc_loss": 1.3687186001604048,
+    "seconds": 31.856021699961275
+  },
+  "epochs": [
+    {
+      "word_errors": 6498,
+      "reference_words": 6498,
+      "character_errors": 39067,
+      "reference_characters": 39067,
+      "wer": 1.0,
+      "cer": 1.0,
+      "epoch": 1,
+      "train_ctc_loss": 3.4622119470691004,
+      "seconds": 30.82729099970311
+    },
+    {
+      "word_errors": 6498,
+      "reference_words": 6498,
+      "character_errors": 39067,
+      "reference_characters": 39067,
+      "wer": 1.0,
+      "cer": 1.0,
+      "epoch": 2,
+      "train_ctc_loss": 2.8708819644107324,
+      "seconds": 30.403572000097483
+    },
+    {
+      "word_errors": 6498,
+      "reference_words": 6498,
+      "character_errors": 39067,
+      "reference_characters": 39067,
+      "wer": 1.0,
+      "cer": 1.0,
+      "epoch": 3,
+      "train_ctc_loss": 2.8600681408640902,
+      "seconds": 29.394439700059593
+    },
+    {
+      "word_errors": 6498,
+      "reference_words": 6498,
+      "character_errors": 39067,
+      "reference_characters": 39067,
+      "wer": 1.0,
+      "cer": 1.0,
+      "epoch": 4,
+      "train_ctc_loss": 2.835994728913544,
+      "seconds": 31.267013899981976
+    },
+    {
+      "word_errors": 6498,
+      "reference_words": 6498,
+      "character_errors": 28218,
+      "reference_characters": 39067,
+      "wer": 1.0,
+      "cer": 0.7222975913174803,
+      "epoch": 5,
+      "train_ctc_loss": 2.5116388656850686,
+      "seconds": 31.9795274999924
+    },
+    {
+      "word_errors": 6496,
+      "reference_words": 6498,
+      "character_errors": 22629,
+      "reference_characters": 39067,
+      "wer": 0.9996922129886119,
+      "cer": 0.5792356720505798,
+      "epoch": 6,
+      "train_ctc_loss": 2.029493570327759,
+      "seconds": 33.920136800035834
+    },
+    {
+      "word_errors": 6464,
+      "reference_words": 6498,
+      "character_errors": 20535,
+      "reference_characters": 39067,
+      "wer": 0.994767620806402,
+      "cer": 0.5256354467965291,
+      "epoch": 7,
+      "train_ctc_loss": 1.793887470912708,
+      "seconds": 34.446997799910605
+    },
+    {
+      "word_errors": 6466,
+      "reference_words": 6498,
+      "character_errors": 20514,
+      "reference_characters": 39067,
+      "wer": 0.9950754078177901,
+      "cer": 0.5250979087209153,
+      "epoch": 8,
+      "train_ctc_loss": 1.6478393314578008,
+      "seconds": 38.8479412002489
+    },
+    {
+      "word_errors": 6435,
+      "reference_words": 6498,
+      "character_errors": 19620,
+      "reference_characters": 39067,
+      "wer": 0.9903047091412742,
+      "cer": 0.502214144930504,
+      "epoch": 9,
+      "train_ctc_loss": 1.5442343434543475,
+      "seconds": 34.97832759981975
+    },
+    {
+      "word_errors": 6424,
+      "reference_words": 6498,
+      "character_errors": 19296,
+      "reference_characters": 39067,
+      "wer": 0.9886118805786396,
+      "cer": 0.49392070033532137,
+      "epoch": 10,
+      "train_ctc_loss": 1.4755231525317434,
+      "seconds": 31.7804455999285
+    },
+    {
+      "word_errors": 6435,
+      "reference_words": 6498,
+      "character_errors": 19368,
+      "reference_characters": 39067,
+      "wer": 0.9903047091412742,
+      "cer": 0.49576368802313975,
+      "epoch": 11,
+      "train_ctc_loss": 1.4142982528564778,
+      "seconds": 31.101312700193375
+    },
+    {
+      "word_errors": 6365,
+      "reference_words": 6498,
+      "character_errors": 18628,
+      "reference_characters": 39067,
+      "wer": 0.97953216374269,
+      "cer": 0.4768218701205621,
+      "epoch": 12,
+      "train_ctc_loss": 1.3687186001604048,
+      "seconds": 31.856021699961275
+    }
+  ],
+  "test_evaluated": false,
+  "elapsed_seconds": 444.56383340014145,
+  "example_prediction": {
+    "recording_id": "fleurs:id_id:dev:5503302588298691166",
+    "reference": "air tumpah di atas tanggul di bagian selebar 100 kaki",
+    "prediction": "a ungpan diatas tan mudipadin sele balaratus pa ti",
+    "word_errors": 10,
+    "reference_words": 10,
+    "character_errors": 20,
+    "reference_characters": 44
+  },
+  "checkpoint_reload_verified_predictions": 345,
+  "dataset": "google/fleurs",
+  "dataset_config": "id_id",
+  "dataset_revision": "70bb2e84b976b7e960aa89f1c648e09c59f894dd",
+  "validation_split": "official dev",
+  "selection": "Lowest validation WER, then CER, then earliest epoch",
+  "scoring": "Corpus edit counts divided by reference lengths. Spaces are excluded from CER.",
+  "training_manifest_sha256": {
+    "train": "7de92a29b4d69772bb29720d5bda2bb24fa295069068177a0b1024f39a2a5562",
+    "validation": "3734e14549ea630e8e0f0a3c9e9de64c55d6ba07562cfc2302c50a468a7c9e02"
+  },
+  "published_manifest_sha256": {
+    "train": "2e2b13535259687000b1d9de731f595c2fb3d658a9aff2bb90a6bccf513399f3",
+    "validation": "d14b1bdfd5804c6575f62830c1eab6ecf4749d8be74a7fc99f2efd84589bf600"
+  }
+}
